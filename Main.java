@@ -19,7 +19,7 @@ public class Main {
             xx.setSongName(sc.nextLine());
             System.out.println("Please enter lenght of the " + i + " song");
             xx.setSongLenght(sc.nextDouble());
-            TotalLenght = TotalLenght + xx.
+            //TotalLenght = TotalLenght + xx.
             System.out.println("Please enter music style of the " + i + " song");
             xx.setSongStyle(sc.nextLine());
 
@@ -30,16 +30,17 @@ public class Main {
         // display ArrayList of entered song information
         System.out.println("Your entered list of songs: ");
         System.out.println();
-        for (int j = 0; j<SongList.size(); j++){
+        for (int j = 0; j < SongList.size(); j++) {
             Sng = SongList.get(j);
             System.out.println(Sng.getFullSongInfo());
         }
 
         // Total lenght of entered songs
-        for (int k = 0; k<SongList.size(); k++){
+        for (int k = 0; k < SongList.size(); k++) {
             Sng = SongList.get(k);
             System.out.println(Sng.getFullSongInfo());
-        System.out.println("The total lenght of entered songs is:");
+            System.out.println("The total lenght of entered songs is:");
 
+        }
     }
 }
