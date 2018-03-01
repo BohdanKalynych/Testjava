@@ -19,7 +19,7 @@ public class Main {
             xx.setSongName(sc.nextLine());
             System.out.println("Please enter lenght of the " + i + " song");
             xx.setSongLenght(sc.nextDouble());
-            TotalLenght = TotalLenght + xx.getSongLenght();
+            //TotalLenght = TotalLenght + xx.getSongLenght();
             System.out.println("Please enter music style of the " + i + " song");
             xx.setSongStyle(sc.nextLine());
 
