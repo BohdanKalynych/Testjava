@@ -31,10 +31,12 @@ public class Song {
         return SongStyle;
     }
 
-    public String getFullSongInfo(){
-        String fullInfo;
-        fullInfo = SongName +"   "+ SongLenght +"   "+ SongStyle;
-        return fullInfo;
+    @Override
+    public String toString() {
+        return "Song{" +
+                "SongName='" + SongName + '\'' +
+                ", SongStyle='" + SongStyle + '\'' +
+                ", SongLenght=" + SongLenght +
+                '}';
     }
-
 }
